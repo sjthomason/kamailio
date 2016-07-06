@@ -1620,7 +1620,6 @@ static inline int get_line(str s)
 		LM_ERR("No CRLF found\n");
 		return s.len;
 	}
-	return 0;
 }
 
 int replace_body(struct sip_msg *msg, str txt)

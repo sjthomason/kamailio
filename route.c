@@ -1214,7 +1214,6 @@ inline static int comp_num(int op, long left, int rtype, union exp_op* r,
 			LM_CRIT("unknown operator: %d\n", op);
 			return E_BUG;
 	}
-	return E_BUG;
 }
 
 /*

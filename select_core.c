@@ -295,7 +295,6 @@ int select_contact_params_spec(str* res, select_t* s, struct sip_msg* msg)
 		BUG("Unexpected parameter value \"%d\"\n", s->params[s->n-1].v.i);
 		return -1;
 	}
-	return -1;
 }
 
 int select_contact_params(str* res, select_t* s, struct sip_msg* msg)
@@ -455,7 +454,6 @@ int select_via_params_spec(str* res, select_t* s, struct sip_msg* msg)
 		BUG("Unexpected parameter value \"%d\"\n", s->params[s->n-1].v.i);
 		return -1;
 	}
-	return -1;
 }
 
 int select_msg(str* res, select_t* s, struct sip_msg* msg)

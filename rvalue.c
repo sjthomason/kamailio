@@ -1322,7 +1322,6 @@ struct rvalue* rval_convert(struct run_act_ctx* h, struct sip_msg* msg,
 			BUG("unsupported conversion to type %d\n", type);
 			return 0;
 	}
-	return 0;
 }
 
 
